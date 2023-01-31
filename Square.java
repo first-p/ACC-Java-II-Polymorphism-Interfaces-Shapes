@@ -21,6 +21,6 @@ public class Square extends TwoDimensionalShape {
     //Override getArea from Shape, returns area
     @Override
     public double getArea(){
-        return getEdge() * getEdge();
+        return Math.pow(getEdge(),2);
     }
 }
