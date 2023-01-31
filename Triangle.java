@@ -34,6 +34,6 @@ public class Triangle extends Shape{
     //override getArea from Shape, returns area of Triangle
     @Override
     public double getArea(){
-        return 0.5 * (base * height);
+        return 0.5 * (getBase() * getHeight());
     }
 }
